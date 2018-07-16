@@ -370,5 +370,66 @@
       "restaurantId": "tasty-treats"
     }
   ],
-  "orders": []
+  "orders": [
+    {
+      "adress": "Rua Analia Franco",
+      "number": "30",
+      "optionalAddress": "Ap 52F",
+      "paymentOption": "MON",
+      "orderItems": [
+        {
+          "quantity": 1,
+          "menuId": "sunday"
+        },
+        {
+          "quantity": 1,
+          "menuId": "chocpop"
+        }
+      ],
+      "id": 1
+    },
+    {
+      "adress": "Rua Jacy Vieira",
+      "number": "9",
+      "optionalAddress": "",
+      "paymentOption": "REF",
+      "orderItems": [
+        {
+          "quantity": 1,
+          "menuId": "cup"
+        }
+      ],
+      "id": 2
+    },
+    {
+      "adress": "R Jacy",
+      "number": "30",
+      "optionalAddress": "",
+      "paymentOption": "DEB",
+      "orderItems": [
+        {
+          "quantity": 1,
+          "menuId": "sunday"
+        },
+        {
+          "quantity": 1,
+          "menuId": "chocpop"
+        }
+      ],
+      "id": 3
+    },
+    {
+      "adress": "R Esmeralda",
+      "number": "9",
+      "optionalAddress": "",
+      "paymentOption": "DEB",
+      "orderItems": [
+        {
+          "quantity": 1,
+          "menuId": "icestd.png"
+        }
+      ],
+      "id": 4
+    }
+  ]
 }
